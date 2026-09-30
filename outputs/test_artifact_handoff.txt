@@ -1,0 +1,15 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.13, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\Hurshita Gupta\OneDrive\Desktop\agent_collaboration\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Hurshita Gupta\OneDrive\Desktop\agent_collaboration
+configfile: pyproject.toml
+plugins: anyio-4.15.1
+collecting ... collected 5 items
+
+tests/test_artifact_handoff.py::test_researcher_creates_artifact PASSED  [ 20%]
+tests/test_artifact_handoff.py::test_artifact_handoff_success PASSED     [ 40%]
+tests/test_artifact_handoff.py::test_wrong_sender_is_rejected PASSED     [ 60%]
+tests/test_artifact_handoff.py::test_wrong_receiver_is_rejected PASSED   [ 80%]
+tests/test_artifact_handoff.py::test_empty_artifact_is_rejected PASSED   [100%]
+
+============================== 5 passed in 0.99s ==============================
