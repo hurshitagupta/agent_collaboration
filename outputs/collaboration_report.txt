@@ -1,0 +1,20 @@
+=== HAPPY PATH ===
+{'total_trace_events': 4, 'review_rounds': 2, 'roles': ['critic', 'writer'], 'final_decision': 'accepted', 'human_review_required': False}
+
+Generated report:
+**Collaboration Report**
+
+1. **Roles involved:** Critic, Writer  
+2. **Number of review rounds:** 2  
+
+3. **Main critique and revision activity**  
+   - **Round 1 – Critic:** “REVISE: Add a limitation.”  
+   - **Round 1 – Writer:** Revised answer to include the limitation – “Agent memory stores useful context, but stored information may become outdated.”  
+   - **Round 2 – Critic:** “ACCEPT”  
+
+4. **Final decision:** Accepted  
+
+5. **Human review required:** No (false)
+
+=== REJECTION PATH ===
+{'status': 'rejected', 'reason': 'Trace cannot be empty.'}
