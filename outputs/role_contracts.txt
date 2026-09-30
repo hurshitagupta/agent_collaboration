@@ -1,0 +1,7 @@
+=== HAPPY PATH ===
+{'status': 'completed', 'role': 'researcher', 'responsibility': 'Collect relevant facts for the question.', 'output_type': 'notes', 'content': 'Facts collected for: What is agent memory?'}
+{'status': 'completed', 'role': 'critic', 'responsibility': 'Review notes and identify missing evidence or limitations.', 'output_type': 'critique', 'content': 'Critique prepared for: What is agent memory?'}
+{'status': 'completed', 'role': 'writer', 'responsibility': 'Create the final answer using approved notes and critique.', 'output_type': 'answer', 'content': 'Final answer prepared for: What is agent memory?'}
+
+=== REJECTION PATH ===
+{'status': 'rejected', 'role': 'researcher', 'reason': "Role 'researcher' may only produce 'notes', not 'answer'."}
